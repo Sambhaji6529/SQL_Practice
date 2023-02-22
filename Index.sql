@@ -12,11 +12,11 @@ age int
 #To display table description
 desc student;
 
-#create index with single coloumn
+#create index with single column
 create index index_age
 on student(age);
 
-#create index with multiple coloumn
+#create index with multiple column
 create index index_age_first_name
 on student(age,first_name);
 
