@@ -1,7 +1,7 @@
 #use customers database
 use customers;
 
-#display atbles
+#display tables
 show tables;
 
 #create table student
